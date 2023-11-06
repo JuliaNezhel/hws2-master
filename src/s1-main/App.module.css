@@ -3,9 +3,16 @@
 }
 
 .hw {
-
+    border: solid 1px #D9D9D9;
+    margin-bottom: 260px;
+    padding: 25px;
 }
 
 .hwTitle {
+    max-width: 1140px;
+    margin: 131px auto 0;
 
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
 }
