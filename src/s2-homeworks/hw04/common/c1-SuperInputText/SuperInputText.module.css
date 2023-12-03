@@ -1,20 +1,37 @@
 .input:focus {
+    outline: rgb(49, 49, 49) 1px solid;
 }
 
 .input {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
+    padding: 20px;
 }
 
 .inputWrapper {
+    position: relative;
 }
 
-.superInput {
-}
+.superInput {}
+
 
 .errorInput {
+    border: red 1px solid;
 }
 
 .errorInput:focus {
+    outline: red 1px solid;
 }
 
 .error {
+    color: red;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    position: absolute;
+    left: 0px;
+    top: -30%;
 }
