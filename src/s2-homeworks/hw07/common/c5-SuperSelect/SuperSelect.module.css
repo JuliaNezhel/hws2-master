@@ -1,9 +1,19 @@
 .select {
+    /* background-color: blue; */
+    width: 180px;
+    height: 24px;
+    border-radius: 2px;
+    border: 1px solid #C2C2C2;
 }
 
 .select:focus {
+    /* background-color: rgb(208, 255, 0); */
+    border: 1px solid #000;
+
 }
 
 
 .option:hover {
+    background-color: #1E90FF;
+    color: #FFF;
 }
