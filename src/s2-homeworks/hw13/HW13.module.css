@@ -1,19 +1,40 @@
 .buttonsContainer {
+  display: flex;
+  gap: 20px;
 }
 
 .responseContainer {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
 }
 
 .imageContainer {
+  max-width: 451px;
+  min-width: 200px;
+
 }
 
 .image {
+  max-width: 451px;
+  min-width: 200px;
 }
 
-.textContainer{
+.textContainer {
+  max-width: 511px;
+  min-width: 230px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
 }
 
 .code {
+  font-size: 30px;
+  line-height: 37px;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .text {
