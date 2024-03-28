@@ -1,11 +1,15 @@
 .pagination {
-    display: flex;
+  display: flex;
+margin-bottom: 20px;
+}
+.pagination select {
+  width: 39px;
 }
 
 .text1 {
-
+  padding-right: 10px;
 }
 
 .text2 {
-
+  padding-left: 10px;
 }
