@@ -72,20 +72,17 @@ const HW15 = () => {
     // делает студент
     setPage((state) => (state = newPage));
     setCount((state) => (state = newCount));
-    // setPage(
-    // setCount(
-    sendQuery({ page: newPage, count: newCount });
-    console.log(`Page - ${newPage} a это - count ${newCount}`);
-    // setSearchParams(
+    sendQuery({ page: newPage, count: newCount, sort });
+    setSearchParams({ page: newPage.toString(), count: newCount.toString() });
     //
   };
 
   const onChangeSort = (newSort: string) => {
     // делает студент
-    // setSort(
-    // setPage(1) // при сортировке сбрасывать на 1 страницу
-    // sendQuery(
-    // setSearchParams(
+    setSort(newSort);
+    setPage(1); // при сортировке сбрасывать на 1 страницу
+    sendQuery({  page, count , sort:  newSort})
+    setSearchParams({ page: '1', count: count.toString() })
     //
   };
 
@@ -115,7 +112,7 @@ const HW15 = () => {
       <div className={s2.hw}>
         {idLoading && (
           <div id={"hw15-loading"} className={s.loading}>
-            <Loader/>
+            <Loader />
           </div>
         )}
 
